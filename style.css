@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    font-family: "Poppins", sans-serif;
+}
+
+.nombre {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+
+body
+{
+    background-color: rgb(144, 172, 238);
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+    
+}
+
+.back {
+    padding: 32px 0;
+    background-color: rgba(2, 2, 59, 0.697);
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    
+    
+    }
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color:sienna;
+
+}
+
+#menu {
+    display: none;
+}
+.menu-icono {
+    width: 20px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+.logo {
+    
+    font-size: 24px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 450px;
+}
+
+.img-logo{
+width: 55px;
+
+}
+
+
+.flex{
+    display: flex;
+    justify-content:center;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+
+.columna
+{
+    background: rgb(230, 216, 216);
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 25px;
+    box-shadow: 5px 5px #888;
+}   
+
+.btn-precio 
+{
+    background: #102889;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-precio:hover
+{
+    background-color: #424163;
+}
+
+p {
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+
+}
+.contenedor {
+        margin-top: 80px;
+}
